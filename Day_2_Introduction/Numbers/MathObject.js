@@ -1,0 +1,15 @@
+let PI=Math.PI;
+console.log(PI);
+console.log(Math.round(PI));
+console.log(Math.ceil(PI));
+let n1=-10;
+console.log(Math.abs(n1));
+console.log(Math.E);
+console.log(Math.sqrt(9));
+let arr1=[-10,20,40,90,99];
+console.log(Math.max(-10,20,40,90,99));
+console.log(Math.min(-10,20,40,90,99));
+console.log(Math.log(12));
+console.log(Math.sin(0));
+let random=Math.random();
+console.log(random);
