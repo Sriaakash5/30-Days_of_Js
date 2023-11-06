@@ -1,0 +1,1 @@
+console.log(new Date(2023,11,0).getDate());
