@@ -1,0 +1,32 @@
+const arr=Array();
+const arr1=[1,2,3,4,5];
+let len=arr1.length;
+console.log(len);
+let first=arr1[0],last=arr1[len-1],middle=arr1[len/2];
+const mixedDataType=['abc',12,true,undefined,[[1,2],[3,4]],BigInt(12n)];
+let len1=mixedDataType.length;
+console.log(len1);
+const itcompanies=['Apple','Google','Amazon','Facebook','Oracle','IBM'];
+console.log(itcompanies);
+let number=itcompanies.length;
+console.log(number);
+let fcompany=itcompanies[0];
+let lastcompany=itcompanies[number-1];
+let middlecompany=itcompanies[number/2];
+console.log(fcompany," ",middlecompany," ",lastcompany," ",itcompanies);
+
+console.log(itcompanies[0].toUpperCase());
+console.log(itcompanies[1].toUpperCase());
+console.log(itcompanies[2].toUpperCase());
+console.log(itcompanies[3].toUpperCase());
+console.log(itcompanies[4].toUpperCase());
+console.log(itcompanies[5].toUpperCase());
+console.log(itcompanies.join(','),'are big IT companies');
+
+let p1=itcompanies.includes('Apple');
+(p1==1)? console.log('Apple') : console.log('-1');
+console.log(itcompanies.reverse());
+console.log(itcompanies.slice(0,3));
+console.log(itcompanies.slice(-3));
+console.log(itcompanies.splice(1));
+console.log(itcompanies.splice());
